@@ -3,7 +3,7 @@ import { AddCategory } from './components/AddCategory';
 import { GifGrid } from './components/GifGrid';
 
 
-export const GifExpertApp = () => { 
+export const GifAround = () => { 
     
     
     const [categories, setCategories] = useState(['Search'])
@@ -11,10 +11,12 @@ export const GifExpertApp = () => {
 
     return (
         <div className="app-cointainer">
-            <h2 className="app-title">Gif Expert App</h2>
+            <div className="logo">
+                <div className="app-title-GIF">GIF</div>
+                <div className="app-title-Around">Around</div>
+            </div>
             <hr />
             <AddCategory setCategories={setCategories} />
-            
             <div  className="grid-container">
 
                     {

@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 //Components
-import { GifExpertApp } from './GifExpertApp';
+import { GifAround } from './GifAround';
 //Styles
 import './index.css';
 
 
 ReactDOM.render(
 
-    <GifExpertApp />,
+    <GifAround />,
   document.getElementById('root')
 );
 
